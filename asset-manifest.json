@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-webPage/static/css/main.055009fc.css",
-    "main.js": "/react-webPage/static/js/main.5400ac0f.js",
+    "main.js": "/react-webPage/static/js/main.b3cc20cc.js",
     "static/media/pizza.png": "/react-webPage/static/media/pizza.74627795634e6ee5dc48.png",
     "static/media/steak-french-fries.jpg": "/react-webPage/static/media/steak-french-fries.9219e33f8f5f7a62b714.jpg",
     "static/media/rasagulla.png": "/react-webPage/static/media/rasagulla.2bb6c2a448689b15a063.png",
@@ -53,10 +53,10 @@
     "static/media/Group 8.svg": "/react-webPage/static/media/Group 8.88d47fc449f4d151d0adda7945207d21.svg",
     "static/media/Vector 12.svg": "/react-webPage/static/media/Vector 12.624821bc3d6e0d0d970b8f53a2921e05.svg",
     "main.055009fc.css.map": "/react-webPage/static/css/main.055009fc.css.map",
-    "main.5400ac0f.js.map": "/react-webPage/static/js/main.5400ac0f.js.map"
+    "main.b3cc20cc.js.map": "/react-webPage/static/js/main.b3cc20cc.js.map"
   },
   "entrypoints": [
     "static/css/main.055009fc.css",
-    "static/js/main.5400ac0f.js"
+    "static/js/main.b3cc20cc.js"
   ]
 }
