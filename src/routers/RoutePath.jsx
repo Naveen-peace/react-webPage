@@ -10,7 +10,7 @@ function RoutePath() {
             <BrowserRouter>
                 <Routes>
                     <Route path='/' element={<Layout />}/>
-                     <Route path='/' index element={<CookPage/>}/>   
+                     <Route path='/react-webPage' index element={<CookPage/>}/>   
                 </Routes>
             </BrowserRouter>
         </div>
