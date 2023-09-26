@@ -1,0 +1,971 @@
+@media only screen and (max-width: 835px) {
+    .container {
+        margin: 0 48px auto !important;
+        width: calc(100% - 10%) !important;
+        margin: 0 auto;
+        /* padding: 35px 20px; */
+    }
+
+    .img-3 {
+        gap: 0;
+    }
+
+    .hero-banner {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .banner-1 {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .banner-1 h3 {
+        font-family: Rubik;
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width:1080px) {
+    .banner-2-1 {
+        display: none !important;
+    }
+
+    .banner-sub {
+        display: none !important;
+    }
+
+    .banner-radious {
+        display: none !important;
+    }
+
+    .student-length {
+        display: none !important;
+    }
+
+    .responsive-footer {
+        display: none !important;
+    }
+
+    .advantage-img {
+        display: none !important;
+    }
+
+    .advantage-2 h3 {
+        display: none !important;
+    }
+
+    .student-420px {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width:1090px) {
+    .container {
+        width: 738px;
+        margin: 0 48px auto !important;
+    }
+
+    .student-420px {
+        display: none !important;
+    }
+
+    .advantage-2 h3 {
+        display: none;
+    }
+
+    .img-center {
+        display: none !important;
+    }
+
+    .hero-banner {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .banner-1 {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .banner-1 span {
+        font-size: 54px !important;
+    }
+    .banner-2-1 button{
+        background-color: transparent;
+        border: transparent;
+    }
+    .banner-left-0 {
+        width: 586px;
+        height: 385px;
+        flex-shrink: 0;
+    }
+
+    .banner-1 h3 {
+        font-family: Rubik;
+        text-align: center;
+        font-size: 50px !important;
+        margin: 0 !important;
+        letter-spacing: 0px !important;
+    }
+
+    .banner-1 p {
+        text-align: center;
+        font-family: Outfit;
+        font-size: 16px !important;
+        margin: 0 !important;
+    }
+
+    .banner-2 {
+        display: none !important;
+    }
+
+    .banner-2-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 11px;
+    }
+
+    .banner-2-1 h6 {
+        color: var(--Text-Color, #252422);
+        font-family: Outfit;
+        font-size: 16px;
+        margin: 0;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .banner-left {
+        position: relative;
+        flex-shrink: 0;
+        padding-bottom: 124px;
+    }
+
+    .banner-radious {
+        position: absolute;
+        top: 314px;
+        right: -131px;
+    }
+
+    .banner-sub {
+        position: absolute;
+        top: 273px;
+        right: 225px;
+        display: flex;
+        width: 284px;
+        padding: 24px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 21px;
+        border-radius: 16px;
+        border: 1px solid var(--Primary-Lighten, #FFDBB8);
+        background: var(--Secondary-Background, #FFFDF4);
+    }
+
+    .banner-sub-1 {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        align-self: stretch;
+    }
+
+    .banner-sub-1 h4 {
+        color: var(--Text-Color, #252422);
+        font-family: Rubik;
+        font-size: 18px;
+        font-style: normal;
+        margin: 0;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .banner-sub-1 h5 {
+        color: var(--Text-Color, #252422);
+        font-family: Outfit;
+        font-size: 16px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .banner-sub-2 p {
+        color: var(--Text-Color-Secondary, #403D39);
+        font-family: Outfit;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        margin: 0;
+    }
+
+    .total-broder {
+        margin: 0 !important;
+        width: 94% !important;
+        /* height: 143px; */
+        padding: 12px 23px;
+        gap: 29px;
+    }
+
+    .boxes h4 {
+        font-size: 32px !important;
+    }
+
+    .total-employ {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        padding: 0 !important;
+        gap: 15px !important;
+    }
+
+    .landing {
+        padding: 16px 0 !important;
+        width: 100% !important;
+    }
+
+    .boxes {
+        padding: 20px 20px !important;
+    }
+
+    .boxex-4 {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .vegan-cook {
+        display: none !important;
+    }
+
+    .vegan-4 {
+        display: none !important;
+    }
+
+    .vegan-top {
+        padding: 134px 0 28px 0 !important;
+    }
+
+    .categories {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 24px 24px !important;
+    }
+
+    .categories-2 {
+        margin: 44px 68px 0 0 !important;
+    }
+
+    .benifits {
+        padding: 107px 0 163px 0 !important;
+    }
+
+    .benifits-1 h2 {
+        text-align: center;
+        font-size: 42px !important;
+    }
+
+    .icon-fixed {
+        position: absolute !important;
+        top: 97px !important;
+        right: 177px !important;
+    }
+
+    .benifits-flex {
+        display: flex !important;
+        padding: 75px 0 0 0 !important;
+        width: 585px;
+        margin: 0 auto !important;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 33px !important;
+    }
+
+    .vector {
+        display: none !important;
+    }
+
+    .advantage {
+        padding: 0 !important;
+    }
+
+    .advantage-flex {
+        flex-direction: column;
+        padding-bottom: 187px !important;
+    }
+
+    .advantage-1 {
+        width: 583px !important;
+        margin: 0 auto !important;
+        padding-bottom: 44px !important;
+        height: 367px;
+        flex-shrink: 0;
+    }
+
+    .advantage-2 {
+        display: flex !important;
+        width: 738px !important;
+        gap: 29px;
+    }
+
+    .how-work-sub-1 h2 {
+        font-size: 36px !important;
+        margin-bottom: 14px !important;
+    }
+
+    .how-work-2 img {
+        width: 43px !important;
+    }
+
+    .how-work-4 {
+        /* display: flex !important; */
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: flex-start;
+        gap: 29px !important;
+        align-self: stretch;
+    }
+
+    .how-work-4-1 {
+        width: 739px !important;
+        display: flex !important;
+        /* justify-content: center !important; */
+        align-items: center !important;
+        height: 408px !important;
+    }
+
+    .how-work-4-1 img {
+        width: 551px !important;
+        padding: 39px 83px 0 105px;
+        height: 369px;
+        flex-shrink: 0;
+    }
+
+    .how-work-4-1 h1 {
+        position: absolute !important;
+        top: 1px !important;
+        left: 1px !important;
+    }
+
+    .how-work-4-2 {
+        width: 100% !important;
+        align-self: stretch;
+    }
+
+    .how-work-padding {
+        padding: 44px 0 0 0 !important;
+    }
+
+    .how-work-flex {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 123px;
+    }
+
+    .how-work-2page {
+        flex-direction: column-reverse;
+    }
+
+    .how-work-4-3-1 img {
+        width: 551px !important;
+        padding: 53px 94px 0 93px;
+        height: 369px;
+        flex-shrink: 0;
+    }
+
+    .how-work-4-3-1 h1 {
+        position: absolute !important;
+        top: 1px !important;
+        left: -184px !important;
+    }
+
+    .how-work-padding-1 {
+        padding: 0 !important;
+    }
+
+    .money-back-guarant {
+        padding: 133px 0 169px 0 !important;
+    }
+
+    .money-guarantee {
+        width: 523px !important;
+        /* margin: 0 auto !important; */
+        flex-shrink: 0;
+    }
+
+    .become-chef {
+        flex-direction: column-reverse;
+        gap: 42px;
+    }
+
+    .become-chef-1 {
+        width: 100% !important;
+        align-self: stretch;
+        padding-bottom: 67.5px !important;
+    }
+
+    .become-student {
+        display: flex !important;
+        width: 738px !important;
+        align-items: center !important;
+        gap: 42px;
+    }
+
+    .student {
+        width: 100% !important;
+        background-color: #D27722;
+        padding: 0 !important;
+    }
+
+    .student-width {
+        display: none !important;
+    }
+
+    .student-length {
+        object-fit: contain;
+        background-size: cover;
+    }
+
+    .become-student-1 {
+        padding: 0 !important;
+    }
+
+    .online-class {
+        flex-direction: column-reverse;
+    }
+
+    .cook-1 {
+        width: 100% !important;
+        padding-top: 117px !important;
+    }
+
+    .cook-img {
+        width: 357px !important;
+        height: 250px !important;
+    }
+
+    .online-class-2-2 {
+        display: grid;
+        grid-template-columns: 134px 177px 98px !important;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .online-class-1 {
+        width: 100% !important;
+        padding-bottom: 131px !important;
+    }
+
+    .online-class-1-1 {
+        margin-bottom: 50px !important;
+    }
+
+    .footer {
+        width: 100%;
+        background-color: #D27722;
+        margin: auto;
+        flex-shrink: 0;
+        padding: 0 !important;
+    }
+
+    .footer-1 {
+        width: 100% !important;
+    }
+
+    .footer-2 {
+        display: flex !important;
+        padding: 62px 0 0 0 !important;
+        width: 738.885px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start !important;
+        gap: 24px !important;
+    }
+
+    .footer-new-1 {
+        display: flex;
+        align-items: flex-start;
+        gap: 64px;
+    }
+
+    .footer-new-2 {
+        display: flex;
+        align-items: flex-start;
+        gap: 64px;
+    }
+
+    .footer-line {
+        display: none !important;
+    }
+
+    .old-footer {
+        display: none !important;
+    }
+
+    .footer-3 {
+        padding: 0 !important;
+    }
+
+    .footer-4 {
+        padding: 91px 0 0 0 !important;
+        gap: 115px !important;
+        display: inline-flex !important;
+        align-items: flex-start !important;
+        justify-content: space-between !important;
+    }
+
+    .footer-7 {
+        width: 100%;
+        display: flex !important;
+        justify-content: center !important;
+        padding: 87px 0 34px 0 !important;
+    }
+}
+
+@media only screen and (max-width:420px) {
+    .container {
+        /* width: 390px !important; */
+        margin: 0 32px auto !important;
+        /* position: relative; */
+        max-width: 420px;
+        /* Adjust the maximum width as needed */
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .img-2 {
+        display: none !important;
+    }
+
+    .banner-left {
+        background-image: url(../image/Hero\ Img-390px.png);
+        background-position: bottom;
+        background-size: cover;
+
+        width: 420px !important;
+        height: 281px;
+        flex-shrink: 0;
+    }
+
+    .banner-left-0 {
+        display: none !important;
+        border-radius: none !important;
+        max-width: 390px;
+        object-fit: cover;
+        margin: 0 auto;
+        height: 281px;
+        flex-shrink: 0;
+    }
+
+    .banner-sub {
+        position: absolute;
+        top: 314px;
+        right: 43px;
+    }
+
+    .banner-radious {
+        display: none;
+    }
+
+    .banner-1 h3 {
+        font-size: 32px !important;
+        text-align: center;
+    }
+
+    .banner-1 span {
+        font-size: 32px !important;
+    }
+
+    .button-1 {
+        flex-direction: column;
+    }
+
+    .banner-1 {
+        width: 100% !important;
+        padding-top: 192px;
+    }
+
+    .banner-1 p {
+        width: 80% !important;
+    }
+
+    .total-broder {
+        width: 85% !important;
+    }
+
+    .total-employ {
+        display: flex !important;
+        width: 326px !important;
+        /* padding: 12px 23px !important; */
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: flex-start;
+        gap: 29px !important;
+    }
+
+    .boxes {
+        padding: 20px 50px !important;
+    }
+
+    .hero-banner {
+        padding: 0 0 78px 0 !important;
+    }
+
+    .vegan-3 h2 {
+        font-size: 30px !important;
+    }
+
+    .vegan-2 img {
+        width: 36px;
+        margin: 0 0 10px 0 !important;
+    }
+
+    .vegan-3 p {
+        display: none;
+    }
+
+    .categories {
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 24px 24px !important;
+    }
+
+    .categories-2 {
+        margin: 44px 14px 0 0 !important;
+    }
+
+    .benifits-1 h2 {
+        font-size: 30px !important;
+        margin: 0 !important;
+    }
+
+    .benifits-1 p {
+        display: none;
+    }
+
+    .icon-fixed {
+        position: absolute !important;
+        top: 93px !important;
+        right: 19px !important;
+    }
+
+    .benifits-2 h3 {
+        font-size: 28px !important;
+    }
+
+    .benifits-flex {
+        display: flex;
+        padding: 53px 0 0 0 !important;
+        width: 326px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 42px !important;
+    }
+
+    .advantage-1 {
+        width: 390px !important;
+    }
+
+    .advantage-img-1 {
+        /* width: 100%; */
+        height: 390px;
+        object-fit: cover;
+    }
+
+    .advantage-sub {
+        position: absolute !important;
+        top: 274px !important;
+        left: 30px !important;
+    }
+
+    .advantage-2 h2 {
+        display: none;
+    }
+
+    .advantage-2 h3 {
+        display: unset;
+        margin: 0;
+        color: var(--Text-Color, #252422);
+        font-family: Rubik;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.6px;
+    }
+
+    .advantage-2 {
+        width: 390px !important;
+        gap: 29px !important;
+    }
+
+    .advantage-sub-2 {
+        flex-direction: column;
+        align-self: stretch;
+        width: 326px !important;
+    }
+
+    .advantage-2-1 h3 {
+        padding-bottom: 10px !important;
+        font-size: 20px !important;
+    }
+
+    .how-work-3 {
+        display: none !important;
+    }
+
+    .how-work-4 {
+        width: 390px !important;
+    }
+
+    .how-work-sub-1 p {
+        display: none !important;
+    }
+
+    .how-work-2 img {
+        margin-bottom: 20px !important;
+    }
+
+    .how-work-4-1 h1 {
+        display: none !important;
+    }
+
+    .how-work-4-3-1 h1 {
+        display: none !important;
+    }
+
+    .how-work-4-1 img {
+        width: 326px !important;
+        height: 254px;
+        padding: 0 !important;
+    }
+
+    .how-work-4-1 {
+        width: 101% !important;
+        /* display: flex !important; */
+        /* justify-content: flex-start !important; */
+    }
+
+    .how-work-4-2 h3 {
+        font-size: 28px !important;
+    }
+
+    .how-work-4-2 {
+        width: 326px !important;
+    }
+
+    .how-work-padding {
+        width: 390px !important;
+    }
+
+    .how-work-4-3-1 img {
+        width: 326px !important;
+        height: 254px;
+        padding: 0 !important;
+    }
+
+    .how-work-4-3 h3 {
+        font-size: 28px !important;
+    }
+
+    .how-work-2page {
+        display: flex !important;
+        width: 390px !important;
+        align-items: flex-start !important;
+    }
+
+    .how-work-4-3-1 {
+        width: 86% !important;
+    }
+
+    .how-work-2page {
+        gap: 42px !important;
+    }
+
+    .how-work-flex {
+        width: 390px !important;
+        gap: 90px !important;
+    }
+
+    .money-back {
+        width: 400px !important;
+        margin: 0 !important;
+        height: 351px !important;
+    }
+
+    .money-back-1 h3 {
+        font-size: 28px !important;
+    }
+
+    .money-guarantee {
+        width: 390px !important;
+        margin: auto 0 !important;
+    }
+    .money-1 {
+        position: absolute !important;
+        top: -47px !important;
+        right: 145px !important;
+    }
+    
+    .money-2 {
+        position: absolute !important;
+        top: -65px !important;
+        right: 132px !important;
+    }
+
+    .become-chef-4 img {
+        border-radius: 1px;
+        /* overflow: hidden; */
+        width: 420px;
+        background-size: cover;
+        background-position: center;
+        background-image: linear-gradient(34deg, black, transparent);
+        height: 302px;
+        flex-shrink: 0;
+    }
+
+    .become-chef-1 h2 {
+        font-size: 30px !important;
+    }
+
+    .become-student {
+        flex-direction: column;
+        width: 390px !important;
+        overflow: hidden;
+    }
+
+    .student {
+        width: 394px !important;
+        height: 1113px;
+        flex-shrink: 0;
+    }
+
+    .student-length {
+        display: none !important;
+    }
+
+    .become-student-background {
+        background-color: transparent !important;
+        height: 1049px !important;
+    }
+
+    .become-student-1 {
+        width: 326px;
+        height: 628px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+        align-self: stretch;
+    }
+
+    .become-student-1 h2 {
+        font-size: 30px !important;
+    }
+
+    .become-student-4 {
+        background-image: url(../image/become-student-420px.png);
+        width: 390px;
+        height: 392px;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .cook-2 {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .cook-img {
+        width: 362px !important;
+        height: 254px !important;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .online-class-2-2 {
+        grid-template-columns: 134px 177px 98px !important;
+    }
+
+    .flex-420px {
+        grid-template-columns: auto auto !important;
+    }
+
+    .online-class-1-1 h3 {
+        font-size: 30px !important;
+    }
+
+    .width-420px {
+        width: 142%;
+    }
+
+    .online-class-1-1 img {
+        width: 36px;
+        height: 27px;
+        flex-shrink: 0;
+    }
+
+    .footer-2-1 {
+        display: grid !important;
+    }
+
+    .footer {
+        width: 403px;
+        height: 1480px;
+        flex-shrink: 0;
+    }
+
+    .footer-2 {
+        display: flex !important;
+        align-items: center !important;
+        width: 420px;
+    }
+
+    .footer-new-1 {
+        display: grid !important;
+    }
+
+    .footer-new-2 {
+        display: grid !important;
+        gap: 32px !important;
+    }
+
+    .footer-4 {
+        display: flex !important;
+        width: 326px;
+        flex-direction: column !important;
+        justify-content: center !important;
+        padding: 125px 0 0 0 !important;
+        align-items: center !important;
+        gap: 41px !important;
+    }
+    .footer-5 {
+        align-items: center !important;
+    }
+    .footer-heading{
+        align-items: center !important;
+    }
+    .footer-2-2{
+        align-items: center !important;
+    }
+}
