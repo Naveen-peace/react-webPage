@@ -497,6 +497,11 @@ button {
   /* padding: 4px; */
   visibility: hidden;
 }
-.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected {
+/* .css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected {
   background-color:  var(--Primary-Lighten, #FFDBB8) !important;
+} */
+
+.custom-menu-list li.Mui-selected{
+  background-color:  var(--Primary-Lighten, #a628b6) !important;
+
 }

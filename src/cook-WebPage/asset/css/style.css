@@ -41,6 +41,13 @@ body {
     letter-spacing: -0.64px;
 }
 
+.menu-btn button {
+    border-color: transparent;
+    padding: 10px;
+    border-radius: 12px;
+    background: var(--Primary, #D27722);
+}
+
 .img-center {
     display: flex;
     align-items: center;
@@ -182,13 +189,15 @@ body {
     margin-top: 20px;
     gap: 10px;
 }
-.close-btn{
+
+.close-btn {
     border: transparent;
     background-color: transparent;
     position: absolute;
-    top:0px ;
+    top: 0px;
     right: -2px;
 }
+
 .new-form-2 button {
     border-radius: 4px;
     border: 2px solid var(--Primary, #D27722);
@@ -542,7 +551,7 @@ body {
 
 .categories-1:hover h3,
 .categories-1:hover p,
-.categories-1:hover rect {
+.categories-1:hover rect{
     color: #FFF;
     fill: #FFF
 }

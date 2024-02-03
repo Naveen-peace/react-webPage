@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
-import hero from '../../../src/asset/image/Hero Img-390px.png'
+import hero from '../../../cook-WebPage/asset/image/Hero Img-390px.png'
 import CloseIcon from '@mui/icons-material/Close';
 
 

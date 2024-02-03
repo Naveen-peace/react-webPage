@@ -48,7 +48,7 @@ import star from '../../../asset/icon/star.svg'
 import heroradious from '../../../asset/icon/Hero-radius.svg'
 import Modal from 'react-modal'
 import CloseIcon from '@mui/icons-material/Close';
-
+import '../../../asset/css/style.css'
 
 
 

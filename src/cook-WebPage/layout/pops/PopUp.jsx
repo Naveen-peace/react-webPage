@@ -44,9 +44,10 @@ export default function SplitButton(props) {
 
   return (
     <React.Fragment>
-      <ButtonGroup variant="contained" ref={anchorRef} aria-label="split button">
-        <Button onClick={handleClick}>{options[selectedIndex].label}</Button>
+      <ButtonGroup className='custom-button' variant="contained" ref={anchorRef} aria-label="split button">
+        <Button className='custom-button-two' onClick={handleClick}>{options[selectedIndex].label}</Button>
         <Button
+          className='custom-button-three'
           size="small"
           aria-controls={open ? 'split-button-menu' : undefined}
           aria-expanded={open ? 'true' : undefined}
@@ -77,7 +78,7 @@ export default function SplitButton(props) {
           >
             <Paper>
               <ClickAwayListener onClickAway={handleClose}>
-                <MenuList id="split-button-menu" autoFocusItem>
+                <MenuList className='custom-menu-list' id="split-button-menu" autoFocusItem>
                   {options.map((option, index) => (
                     <MenuItem
                       key={option.code}

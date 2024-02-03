@@ -1,16 +1,16 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Layout from '../layout/Layout'
-import '../asset/css/style.css'
-import CookPage from '../components/pages/home/CookPage'
+import CookPage from '../cook-WebPage/components/pages/home/CookPage'
+
+
+
 
 function RoutePath() {
     return (
         <div>
             <BrowserRouter>
                 <Routes>
-                    <Route path='/' element={<Layout />}/>
-                     <Route path='/react-webPage' index element={<CookPage/>}/>   
+                    <Route path='/react-webPage'  element={<CookPage/>}/>   
                 </Routes>
             </BrowserRouter>
         </div>
@@ -18,3 +18,7 @@ function RoutePath() {
 }
 
 export default RoutePath
+
+
+
+

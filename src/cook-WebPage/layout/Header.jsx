@@ -7,6 +7,7 @@ import login from '../asset/icon/log-in.svg'
 import Pops from './pops/PopUp'
 import { options, countries } from '../components/data/Data'
 import LoginForm from './poplanguage/LoginForm'
+import menubtn from '../asset/icon/menu-btn.svg'
 
 
 
@@ -65,6 +66,9 @@ function Header() {
               <img src={login} alt="login" />
             </button>
             <LoginForm isOpen={isLoginFormOpen} onClose={closeLoginForm} />
+          </div>
+          <div className='menu-btn'>
+            <button> <img src={menubtn} alt="icon" /></button>
           </div>
         </div>
       </nav>

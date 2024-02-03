@@ -62,6 +62,9 @@
     .student-420px {
         display: none !important;
     }
+    .menu-btn{
+        display: none;
+    }
 }
 
 @media only screen and (max-width:1090px) {
@@ -437,7 +440,16 @@
     .student-width {
         display: none !important;
     }
-
+    .money-1{
+        position: absolute !important;
+        top: -47px !important;
+        right: 172px !important;
+    }
+    .money-2{
+        position: absolute !important;
+        top:-66px !important ;
+        right: 160px !important;
+    }
     .student-length {
         object-fit: contain;
         background-size: cover;
@@ -537,19 +549,24 @@
         justify-content: center !important;
         padding: 87px 0 34px 0 !important;
     }
+    .menu-btn{
+        display: none;
+    }
 }
 
-@media only screen and (max-width:420px) {
+@media only screen and (max-width:600px) {
     .container {
         /* width: 390px !important; */
-        margin: 0 26px auto !important;
+        margin: 0 15px auto !important;
         /* position: relative; */
         max-width: 420px;
         /* Adjust the maximum width as needed */
         overflow: hidden;
         width: 100%;
     }
-
+    .menu-btn{
+        display: unset;
+    }
     .img-2 {
         display: none !important;
     }
@@ -559,7 +576,7 @@
         background-position: bottom;
         background-size: cover;
 
-        width: 420px !important;
+        width: 370px !important;
         height: 281px;
         flex-shrink: 0;
     }
@@ -577,7 +594,7 @@
     .banner-sub {
         position: absolute;
         top: 314px;
-        right: 43px;
+        right: 18px;
     }
 
     .banner-radious {
@@ -720,7 +737,7 @@
     .advantage-sub-2 {
         flex-direction: column;
         align-self: stretch;
-        width: 326px !important;
+        width: 318px !important;
     }
 
     .advantage-2-1 h3 {
@@ -733,7 +750,7 @@
     }
 
     .how-work-4 {
-        width: 390px !important;
+        width: 360px !important;
     }
 
     .how-work-sub-1 p {
@@ -806,54 +823,59 @@
     }
 
     .money-back {
-        width: 400px !important;
+        width: 335px !important;
         margin: 0 !important;
-        height: 351px !important;
+        height: 320px !important;
     }
 
     .money-back-1 h3 {
         font-size: 28px !important;
     }
+    .money-back-1{
+        text-align: center;
+    }
 
     .money-guarantee {
-        width: 390px !important;
-        margin: auto 0 !important;
+        width: 340px !important;
+        margin: auto  !important;
     }
     .money-1 {
         position: absolute !important;
-        top: -47px !important;
-        right: 145px !important;
+        top: -53px !important;
+        right: 114px !important;
     }
     
     .money-2 {
         position: absolute !important;
-        top: -65px !important;
-        right: 132px !important;
+        top: -70px !important;
+        right: 103px !important;
     }
 
     .become-chef-4 img {
         border-radius: 1px;
         /* overflow: hidden; */
-        width: 420px;
+        width: 381px;
         background-size: cover;
         background-position: center;
         background-image: linear-gradient(34deg, black, transparent);
         height: 302px;
         flex-shrink: 0;
     }
-
+    .cook-2-1{
+        width: 330px !important;
+    }
     .become-chef-1 h2 {
         font-size: 30px !important;
     }
 
     .become-student {
         flex-direction: column;
-        width: 390px !important;
+        width: 370px !important;
         overflow: hidden;
     }
 
     .student {
-        width: 394px !important;
+        width: 370px !important;
         height: 1113px;
         flex-shrink: 0;
     }
@@ -895,16 +917,18 @@
     }
 
     .cook-img {
-        width: 362px !important;
-        height: 254px !important;
+        width: 330px !important;
+        height: 232px !important;
     }
 
     .hidden {
         display: none;
     }
-
+    .container-sub{
+        margin: 0 5px auto;
+    }
     .online-class-2-2 {
-        grid-template-columns: 134px 177px 98px !important;
+        grid-template-columns: 134px 177px 0px !important;
     }
 
     .flex-420px {
@@ -930,7 +954,7 @@
     }
 
     .footer {
-        width: 403px;
+        width: 374px;
         height: 1480px;
         flex-shrink: 0;
     }
